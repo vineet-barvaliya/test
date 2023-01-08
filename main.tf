@@ -25,7 +25,7 @@ module "aks"{
     #private_cluster_enabled = var.private_cluster_enabled
 }
 
-#Module to deploy AKS
+#Module to deploy Private Endpoint
 module "pe"{
     depends_on = [
       module.acr, module.aks
