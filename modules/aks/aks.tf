@@ -23,5 +23,4 @@ resource "azurerm_kubernetes_cluster" "demo-aks" {
     Environment = "Production"
   }
 }
-#This is the test
 
